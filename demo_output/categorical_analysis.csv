@@ -1,0 +1,7 @@
+contbr_st,contbr_occupation,cand_nm,transaction_count,total_amount,median_amount
+MA,ENGINEER,Candidate Beta,1,200.0,200.0
+TX,ENGINEER,Candidate Alpha,1,120.0,120.0
+FL,NURSE,Candidate Alpha,1,90.0,90.0
+FL,NURSE,Candidate Beta,1,80.0,80.0
+TX,ENGINEER,Candidate Beta,1,60.0,60.0
+WA,TEACHER,Candidate Alpha,1,45.0,45.0

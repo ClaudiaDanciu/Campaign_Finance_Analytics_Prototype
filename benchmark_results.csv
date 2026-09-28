@@ -1,0 +1,7 @@
+design,scale,rows,median_total_ms,median_freeze_ms,errors
+Sequential (prototype),1x,32694,26.7,33.5,0
+ThreadPoolExecutor(4),1x,32694,29.5,14.1,0
+ProcessPoolExecutor(2),1x,32694,39.1,14.8,0
+Sequential (prototype),10x,326940,89.0,96.6,0
+ThreadPoolExecutor(4),10x,326940,86.5,33.5,0
+ProcessPoolExecutor(2),10x,326940,123.7,23.5,0

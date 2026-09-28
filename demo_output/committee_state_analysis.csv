@@ -1,0 +1,7 @@
+cand_nm,cmte_id,contbr_st,transaction_count,total_amount,mean_amount,median_amount
+Candidate Beta,M2,MA,1,200.0,200.0,200.0
+Candidate Alpha,M1,TX,1,120.0,120.0,120.0
+Candidate Alpha,M1,FL,1,90.0,90.0,90.0
+Candidate Beta,M2,FL,1,80.0,80.0,80.0
+Candidate Beta,M2,TX,1,60.0,60.0,60.0
+Candidate Alpha,M1,WA,1,45.0,45.0,45.0

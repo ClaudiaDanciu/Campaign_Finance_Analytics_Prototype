@@ -1,0 +1,13 @@
+{"action": "load", "detail": "Loaded validated CSV files from demo_input", "rows": 18, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "clean", "detail": "{\"blank_identifier_removed\": 0, \"exclusion_reason_counts\": {\"PAC\": 1, \"UNION\": 1}, \"individual_rows\": 6, \"invalid_amount_or_date_removed\": 0, \"non_individual_excluded\": 2, \"orphan_committee_removed\": 0, \"prepared_rows\": 8, \"unlinked_donor_or_candidate_removed\": 0}", "rows": 8, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "invalid_removal", "detail": "blank_identifier=0; invalid_amount_or_date=0; orphan_committee=0; unlinked_donor_or_candidate=0", "rows": 0, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "non_individual_exclusion", "detail": "{\"PAC\": 1, \"UNION\": 1}", "rows": 2, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "rename", "detail": "contb_receipt_amt -> contribution_amount", "rows": 8, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "merge", "detail": "contributions -> committees -> candidates -> donors; many-to-one validation", "rows": 8, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "backup", "detail": "SQLite relational snapshot (schema v2) saved to demo_output/state.sqlite", "rows": null, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "statistics", "detail": "metric=contribution_amount; individual-only; first mode of 6 shown", "rows": 6, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "pivot", "detail": "monthly contribution sum by candidate", "rows": 4, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "categorical", "detail": "state x occupation x candidate; top occupations=8", "rows": 6, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "correlation", "detail": "Pearson correlation of one-hot categories with amount; descriptive only", "rows": 6, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "committee_state", "detail": "candidate x committee x state; count, total, mean, median", "rows": 6, "time_utc": "2026-09-27T00:33:43+00:00"}
+{"action": "export", "detail": "Exported 5 analysis file(s) to demo_output; summary metric=contribution_amount; grouped outputs and correlations use contribution_amount", "rows": 5, "time_utc": "2026-09-27T00:33:43+00:00"}

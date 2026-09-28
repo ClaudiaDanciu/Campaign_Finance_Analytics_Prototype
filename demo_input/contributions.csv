@@ -1,0 +1,9 @@
+cmte_id,donor_id,contb_receipt_amt,contb_receipt_dt,receipt_desc,memo_cd,memo_text,form_tp,file_num
+M1,D1,120,01/15/2012,,,,SA11AI,1001
+M1,D2,45,02/02/2012,,,,SA11AI,1002
+M2,D4,80,02/18/2012,,,,SA11AI,1003
+M2,D6,200,03/04/2012,,,,SA11AI,1004
+M2,D1,60,03/20/2012,,,,SA11AI,1005
+M1,D4,90,04/11/2012,,,,SA11AI,1006
+M1,D3,500,04/22/2012,,,,SA11AI,1007
+M2,D5,700,05/02/2012,,,,SA11AI,1008

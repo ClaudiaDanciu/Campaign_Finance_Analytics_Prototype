@@ -1,0 +1,9 @@
+statistic (contribution_amount),value
+count,6.0
+mean,99.16666666666667
+median,85.0
+mode,45.0
+mode_count,6.0
+minimum,45.0
+maximum,200.0
+missing_excluded,0.0
